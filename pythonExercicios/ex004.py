@@ -1,0 +1,7 @@
+print('Analise do digitado')
+n = input('Digite algo: ')
+print('O tipo primmitivo  desse valor é ', type(n))
+print('{} é número? '.format(n), n.isnumeric())
+print('{} é alfabetico? '.format(n), n.isalpha())
+print('{} é maiusculo? '.format(n), n.isupper())
+print('{} é minusculo? '.format(n), n.islower())

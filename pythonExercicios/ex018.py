@@ -1,0 +1,10 @@
+import math
+print('Leia um angulo e mostre seu seno e seu cosseno')
+A = float(input('Qual é o angulo em graus? '))
+r = math.radians(A)
+s = math.sin(r)
+t = math.tan(r)
+c = math.cos(r)
+print('Seu seno é: {:.2f}'.format(s))
+print('Seu cosseno é: {:.2f}'.format(c))
+print('Sua tangente é: {:.2f}'.format(t))

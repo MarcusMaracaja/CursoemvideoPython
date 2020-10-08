@@ -1,0 +1,6 @@
+print('='*72)
+print('Lê quanto dinheiro tem na carteira e mostra qunatos dólares pode comprar')
+print('='*72)
+print('Considere o dólar a R$ 3,27')
+n1 = float(input('digite quntos reais você tem na carteira: R$'))
+print('Você pode comprar US${:.2f}'.format(n1/3.27))
